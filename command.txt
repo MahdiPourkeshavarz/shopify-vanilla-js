@@ -1,0 +1,7 @@
+tailwind command : npx tailwindcss -c ./tailwindcss-config.js -i input.css -o output.css
+
+vite command: npm run dev
+
+json-server command :npx json-server data/db.json
+
+
