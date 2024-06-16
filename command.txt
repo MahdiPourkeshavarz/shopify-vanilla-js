@@ -1,7 +1,25 @@
-tailwind command : npx tailwindcss -c ./tailwindcss-config.js -i input.css -o output.css
 
-vite command: npm run dev
+1.Installing vite : npm create vite@latest
 
-json-server command :npx json-server data/db.json
+
+2.Installing packages : npm install tailwindcss navigo loadash json-server json-server-auth
+
+
+3.tailwind config file command : npx tailwindcss init
+
+
+4.Tailwind command : npx tailwindcss -c ./tailwindcss.config.js -i input.css -o output.css --watch
+
+
+5.add this to html :
+<link rel="stylesheet" href="./output.css">
+
+
+6.json-server command :npx json-server data/db.json
+
+
+7.vite command: npm run dev
+
+
 
 

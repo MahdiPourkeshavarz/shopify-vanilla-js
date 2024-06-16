@@ -1,1 +1,17 @@
-{}
+{
+	"users": [
+		{
+			"email": "mahdi@gmail.com",
+			"password": "123345456",
+			"id": "1"
+		}
+	],
+	"products": [
+		{
+			"name": "ps5",
+			"imgUrl": "https://...",
+			"price": 365000,
+			"id": "1"
+		}
+	]
+}
