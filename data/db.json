@@ -8,10 +8,40 @@
 	],
 	"products": [
 		{
-			"name": "ps5",
-			"imgUrl": "https://...",
-			"price": 365000,
+			"name": "Sony PlayStation 5",
+			"img": "./assets/ps5.webp",
+			"price": 5000,
 			"id": "1"
+		},
+		{
+			"name": "Xbox Series S",
+			"img": "./assets/xbox.jpg",
+			"price": 4500,
+			"id": "2"
+		},
+		{
+			"name": "Sony PlayStation 5",
+			"img": "./assets/ps5.webp",
+			"price": 5000,
+			"id": "3"
+		},
+		{
+			"name": "App AirPods Max",
+			"img": "./assets/airpod.jpg",
+			"price": 5000,
+			"id": "4"
+		},
+		{
+			"name": "Surface Laptop 6",
+			"img": "./assets/surface.jpg",
+			"price": 15000,
+			"id": "5"
+		},
+		{
+			"name": "Honor Magic 6 Pro",
+			"img": "./assets/magic-6-pro-2-2.webp",
+			"price": 12000,
+			"id": "6"
 		}
 	]
 }
