@@ -1,16 +1,20 @@
+import axios from "axios";
 import { PRODUCT_URL } from "../api/api";
 
+
+const container = document.getElementById('app');
+
 export function productsPage() {
-  const container = document.getElementById('app');
-  const header = '<div class="container mx-auto py-8"><h1 h1 class="text-4xl font-bold text-center text-gray-800 mb-8" > Our Products</h1 ><div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"></div></div>';
-  container.appendChild(header);
+  container.innerHTML = '<div class="flex items-center flex-col my-6 w-full"><h1 class="text-2xl font-bold text-center text-gray-800 mb-8" >Our Products</h1><div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"></div></div>';
+  displayProducts();
 }
+
 
 async function fetchProducts() {
   try {
-    const response = await axios.get(PRODUCT_URL);
+    const response = await fetch(PRODUCT_URL);
     const data = await response.json();
-    return data.products;
+    return data;
   } catch (error) {
     console.error('Error fetching products:', error);
     return [];
@@ -22,9 +26,10 @@ function createProductCard(product) {
   card.className = 'bg-white rounded-lg shadow-lg p-6';
 
   const img = document.createElement('img');
-  img.src = product.imgUrl;
+  img.src = product.img;
   img.alt = product.name;
   img.className = 'w-full h-48 object-cover rounded-t-lg';
+
 
   const name = document.createElement('h2');
   name.textContent = product.name;
@@ -43,6 +48,9 @@ function createProductCard(product) {
 
 async function displayProducts() {
   const productsContainer = document.getElementById('products-container');
+  console.log(productsContainer);
+
+
   const products = await fetchProducts();
 
   // biome-ignore lint/complexity/noForEach: <explanation>

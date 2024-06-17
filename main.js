@@ -18,7 +18,7 @@ export const router = new Navigo("/");
 router
   .on(routes.home, homePage())
   .on(routes.products, productsPage())
-  .on(routes.productDetails, (match) => productPage(match))
+  .on(routes.productDetails, productPage())
   .on(routes.authentication, authenticationPage())
   .resolve();
 
