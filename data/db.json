@@ -20,8 +20,8 @@
 			"id": "2"
 		},
 		{
-			"name": "Sony PlayStation 5",
-			"img": "./assets/ps5.webp",
+			"name": "Nintendo Switch",
+			"img": "./assets/nintendo-switch.avif",
 			"price": 5000,
 			"id": "3"
 		},
@@ -39,7 +39,7 @@
 		},
 		{
 			"name": "Honor Magic 6 Pro",
-			"img": "./assets/magic-6-pro-2-2.webp",
+			"img": "./assets/Honor-Magic6-Pro.jpg",
 			"price": 12000,
 			"id": "6"
 		}
