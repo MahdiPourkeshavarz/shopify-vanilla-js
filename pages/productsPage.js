@@ -94,6 +94,7 @@ function createProductCard(product) {
   card.appendChild(name);
   card.appendChild(price);
 
+
   return card;
 }
 

@@ -16,9 +16,9 @@ export const routes = {
 export const router = new Navigo("/");
 
 router
-  .on(routes.home, homePage())
-  .on(routes.products, productsPage())
-  .on(routes.productDetails, productPage())
-  .on(routes.authentication, authenticationPage())
+  .on(routes.home, homePage)
+  .on(routes.products, productsPage)
+  .on(routes.productDetails, productPage)
+  .on(routes.authentication, authenticationPage)
   .resolve();
 
