@@ -1,4 +1,4 @@
-export function homePage(route) {
+export function homePage() {
   document.getElementById('app').innerHTML = '<div class="flex items-center flex-col my-6 w-full"><div class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-lg text-center"><h1 class="font-bold text-gray-800 mx-auto">Welcome to Shopify</h1><p class="text-gray-600 mb-6">Discover an amazing collection of products at unbeatable prices. At Shopify, we are committed to providing you with the best shopping experience.</p><button class="bg-blue text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300"><a href="/products" data-navigo>Explore Our Products</a></button></div></div>';
-  console.log(route);
+  localStorage.removeItem('token');
 }
