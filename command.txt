@@ -23,3 +23,7 @@
 
 
 
+version format is like this Major.Minor.Patch //exapmle is : 4.13.6
+Patch : when the creator find a bug in that version and fix that version should be 4.13.7
+Minor :this means a featur that is inside the version if creator create a featur version should be 4.14.0 why 0 because there is no bug founded in that version and Minor should be not break the main version meaning
+Major : this change when the app main changed

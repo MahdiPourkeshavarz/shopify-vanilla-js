@@ -1,47 +1,68 @@
 {
-	"users": [
-		{
-			"email": "mahdi@gmail.com",
-			"password": "123345456",
-			"id": "1"
-		}
-	],
-	"products": [
-		{
-			"name": "Sony PlayStation 5",
-			"img": "./assets/ps5.webp",
-			"price": 5000,
-			"id": "1"
-		},
-		{
-			"name": "Xbox Series S",
-			"img": "./assets/xbox.jpg",
-			"price": 4500,
-			"id": "2"
-		},
-		{
-			"name": "Sony PlayStation 5",
-			"img": "./assets/ps5.webp",
-			"price": 5000,
-			"id": "3"
-		},
-		{
-			"name": "App AirPods Max",
-			"img": "./assets/airpod.jpg",
-			"price": 5000,
-			"id": "4"
-		},
-		{
-			"name": "Surface Laptop 6",
-			"img": "./assets/surface.jpg",
-			"price": 15000,
-			"id": "5"
-		},
-		{
-			"name": "Honor Magic 6 Pro",
-			"img": "./assets/magic-6-pro-2-2.webp",
-			"price": 12000,
-			"id": "6"
-		}
-	]
+  "users": [
+    {
+      "email": "mahdi@gmail.com",
+      "password": "123345456",
+      "id": "1"
+    },
+    {
+      "email": "mahdiii.pk75@gmail.com",
+      "password": "$2a$10$YEBHesdCvbo0kBViyfhJRuM0ruebZv4bweY7ViaDD3tFflwB8ytza",
+      "id": "XzvPPSY"
+    },
+    {
+      "email": "miii@gmail.com",
+      "password": "$2a$10$kmEqzND0oWA0n4zOG//WPOO8KLrg4tVOdaQtzUy9QXOkv.KTEwv.K",
+      "id": "94QrlrC"
+    },
+    {
+      "email": "miiqi@gmail.com",
+      "password": "$2a$10$oRHclQayO.7mLEXIr8RmmOI32DIG/pF7.yIDt6WVpRzHGwGSYw2z2",
+      "id": "uLZnFSu"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sony PlayStation 5",
+      "img": "http://localhost:5173/assets/ps5.webp",
+      "price": 5000,
+      "description": "This is an example product description. It provides details about the product.",
+      "id": "1"
+    },
+    {
+      "name": "Xbox Series S",
+      "img": "http://localhost:5173/assets/xbox.jpg",
+      "price": 4500,
+      "description": "This is an example product description. It provides details about the product.",
+      "id": "2"
+    },
+    {
+      "name": "Nintendo Switch",
+      "img": "http://localhost:5173/assets/nintendo-switch.avif",
+      "price": 5000,
+      "description": "This is an example product description. It provides details about the product.",
+      "id": "3"
+    },
+    {
+      "name": "App AirPods Max",
+      "img": "http://localhost:5173/assets/airpod.jpg",
+      "price": 5000,
+      "description": "This is an example product description. It provides details about the product.",
+      "id": "4"
+    },
+    {
+      "name": "Surface Laptop 6",
+      "img": "http://localhost:5173/assets/surface.jpg",
+      "price": 15000,
+      "description": "This is an example product description. It provides details about the product.",
+      "id": "5"
+    },
+    {
+      "name": "Honor Magic 6 Pro",
+      "img": "http://localhost:5173/assets/Honor-Magic6-Pro.jpg",
+      "price": 12000,
+      "description": "This is an example product description. It provides details about the product.",
+      "id": "6"
+    }
+  ]
 }
